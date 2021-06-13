@@ -26,6 +26,9 @@ code in the le.
 
 ## Data Files 
 
+Daily_closing_prices.csv: daily closing prices of 20 stocks from 2019 to 2020
+Daily_closing_prices20082009.csv: daily closing prices of 20 stocks from 2008 to 2009
+
 ## Python Implementations
 
 
