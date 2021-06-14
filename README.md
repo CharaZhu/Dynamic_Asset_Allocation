@@ -20,8 +20,8 @@ Daily_closing_prices20082009.csv: daily closing prices (quoted in US dollars) of
 
 * Implement financial optimization algorithm using CPLEX and IPOTO
 * Re-balance portfoli according to an investment strategy 
-* Design rounding procedures (round the number of shares traded to integer values)
-* Design validation procedures (Verify cash account are non-negative, have enough budget to re-balance portfolio)
+* Design rounding procedure (round the number of shares traded to integer values)
+* Design validation procedure (Verify cash account are non-negative, have enough budget to re-balance portfolio)
 * Result Visualization & Analysis
 
 
