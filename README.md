@@ -1,8 +1,5 @@
 # Dynamic Asset Allocation Project
-Implement financial optimization algorithm by using CPLEX and IPOPT
-Re-balance portfolio according to a investment strategy at the first trading day of each 2-month holding period (up to 12 re-balances during 2 years): 
-given a current portfolio, the market prices on that day, and the estimates of the mean and covariance of the daily returns. These estimates are based on 
-the previous two-month data and are updated every second month.
+Implement financial optimization algorithm using CPLEX and IPOPT. Re-balance portfolio according to an investment strategy at the first trading day of each 2-month holding period (up to 12 re-balances for 2 years): given a current portfolio, the market prices on that day, and the estimates of the mean and covariance of the daily returns. These estimates are based on the previous two-month data and are updated every second month.
 Need to take into account the effect of trading costs.
 
 1. "Buy and hold"  
@@ -21,7 +18,8 @@ Daily_closing_prices20082009.csv: daily closing prices (quoted in US dollars) of
 
 ## Python Implementations: Main.ipynb  
 
-* Implement investment strategies (optimization & re-balance)
+* Implement financial optimization algorithm using CPLEX and IPOTO
+* Re-balance portfoli according to an investment strategy 
 * Design rounding procedures (round the number of shares traded to integer values)
 * Design validation procedures (Verify cash account are non-negative, have enough budget to re-balance portfolio)
 * Result Visualization & Analysis
