@@ -40,8 +40,6 @@ The initial portfolio: IBM = 980 shares, BK = 20000 shares.
 
 The value of the initial portfolio is about one million dollars. The initial cash account is zero USD. The cash account must be nonnegative at all times. If the value of
 your portfolio after re-balancing plus the transaction fees are smaller than the portfolio value before re-balancing, the remaining funds are accumulated in the cash account.
-
- 
 Cash account does not pay any interest, but cash funds should be used toward stock purchases when portfolio is re-balanced next time.
 
 Note that for buying and selling asset shares, you need to optimize over asset weights. Current
