@@ -38,7 +38,10 @@ difference between the selling and bidding price of a stock, and is 0.5% of the 
 
 The initial portfolio: IBM = 980 shares, BK = 20000 shares.
 
-The value of the initial portfolio is about one million dollars. The initial cash account is zero USD. The cash account must be nonnegative at all times. 
+The value of the initial portfolio is about one million dollars. The initial cash account is zero USD. The cash account must be nonnegative at all times. If the value of
+your portfolio after re-balancing plus the transaction fees are smaller than the portfolio value before re-balancing, the remaining funds are accumulated in the cash account.
+
+ 
 Cash account does not pay any interest, but cash funds should be used toward stock purchases when portfolio is re-balanced next time.
 
 Note that for buying and selling asset shares, you need to optimize over asset weights. Current
@@ -46,4 +49,6 @@ weight of asset i in a portfolio is <img src="http://chart.googleapis.com/chart?
 V is the current portfolio value,
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= v_i"> is current price of asset i and <img src="http://chart.googleapis.com/chart?cht=tx&chl= x_i">
 is the number of units (shares) of asset i in your portfolio.
+ 
+  
  
