@@ -1,5 +1,5 @@
 # Dynamic Asset Allocation Project
-
+Implement financial optimization algorithm by using CPLEX and IPOPT
 Re-balance portfolio according to a investment strategy at the first trading day of each 2-month holding period (up to 12 re-balances during 2 years): 
 given a current portfolio, the market prices on that day, and the estimates of the mean and covariance of the daily returns. These estimates are based on 
 the previous two-month data and are updated every second month.
