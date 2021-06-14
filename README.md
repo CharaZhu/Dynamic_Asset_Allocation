@@ -1,36 +1,36 @@
 # Dynamic Asset Allocation Project
 
-The goal of the optimization effort is to create a tool that allows the user to make regular decisions
-about re-balancing their portfolio and compare different investment strategies.The basic building block is
-a decision made at the first trading day of each 2-month holding period: given a current portfolio,
-the market prices on that day, and the estimates of the mean and covariance of the daily returns,
-make a decision about what to buy and sell according to a strategy. Need to take into account the
-effect of trading costs.
+Implement and compare computational investment strategies. 
 
-1. "Buy and hold" strategy
-2. "Equally weighted" (also known as <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{n}">) portfolio strategy
-3. "Minimum variance" portfolio strategy
-4. "Maximum Sharpe ratio" portfolio strategy
-5. "Equal risk contributions" portfolio strategy
-6. "Leveraged equal risk contributions" portfolio strategy
-7. "Robust mean-variance optimization" portfolio strategy
+Re-balance portfolio according to a strategy at the first trading day of each 2-month holding period 
+(up to 12 re-balances during 2 years): given a current portfolio,
+the market prices on that day, and the estimates of the mean and covariance of the daily returns.
+Need to take into account the effect of trading costs.
+ 
+ 
+1. "Buy and hold"  
+2. "Equally weighted" (also known as <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{n}">) portfolio  
+3. "Minimum variance" portfolio  
+4. "Maximum Sharpe ratio" portfolio  
+5. "Equal risk contributions" portfolio  
+6. "Leveraged equal risk contributions" portfolio  
+7. "Robust mean-variance optimization" portfolio 
 
-
-Design and implement a rounding procedure, so that you always trade (buy or sell) an integer
-number of shares.
-Design and implement a validation procedure in your code to test that each of your strategies
-is feasible (you have enough budget to re-balance portfolio, you correctly compute transaction
-costs, funds in your cash account are non-negative).
-There is a le portf optim.py on the course web-page. You are required to complete the
-code in the le.
 
 ## Data Files 
 
 Daily_closing_prices.csv: daily closing prices of 20 stocks from 2019 to 2020
+
 Daily_closing_prices20082009.csv: daily closing prices of 20 stocks from 2008 to 2009
 
 ## Python Implementations
 
+
+* Design rounding procedures (trade an integer number of shares)
+* Design validation procedures (have enough budget to re-balance portfolio, you correctly compute transaction
+costs, funds in your cash account are non-negative).
+There is a le portf optim.py on the course web-page. You are required to complete the
+code in the le.
 
 
 ## Background
