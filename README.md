@@ -3,7 +3,7 @@ Implement financial optimization algorithm using CPLEX and IPOPT. Re-balance por
 Need to take into account the effect of trading costs.
 
 1. "Buy and hold"  
-2. "Equally weighted" (also known as <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{n}">) portfolio  
+2. "Equally weighted" (also known as <img src="http://chart.googleapis.com/chart?cht=tx&chl= 1/n">) portfolio  
 3. "Minimum variance" portfolio  
 4. "Maximum Sharpe ratio" portfolio  
 5. "Equal risk contributions" portfolio  
